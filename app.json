@@ -1,0 +1,25 @@
+{
+  "name": "YukkiData",
+  "description": "A Telegram bot to fetch raw message data",
+  "repository": "https://github.com/abhisekpatraBoss/YukkiData",
+  "keywords": ["telegram", "pyrogram", "bot"],
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from BotFather",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
